@@ -87,9 +87,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AsyncDisplayKit/AsyncDisplayKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PINCache/PINCache.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PINRemoteImage/PINRemoteImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ReactiveObjC/ReactiveObjC.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XMNetworking/XMNetworking.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AsyncDisplayKit/AsyncDisplayKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PINCache/PINCache.framework"
   install_framework "$BUILT_PRODUCTS_DIR/PINRemoteImage/PINRemoteImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ReactiveObjC/ReactiveObjC.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/XMNetworking/XMNetworking.framework"
 fi

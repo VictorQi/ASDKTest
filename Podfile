@@ -7,7 +7,9 @@ target 'ASDKTest' do
 
   # Pods for ASDKTest
   pod 'AsyncDisplayKit'
-
+  pod 'XMNetworking'
+  pod 'ReactiveObjC'
+  
   target 'ASDKTestTests' do
     inherit! :search_paths
     # Pods for testing

@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "mainView.h"
 #import "Utilities.h"
+#import <XMNetworking/XMNetworking.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface ViewController ()
 

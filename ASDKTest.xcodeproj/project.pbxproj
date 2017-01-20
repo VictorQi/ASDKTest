@@ -118,16 +118,17 @@
 		B6130ECD1E30E7DE00D70C9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B6130ED41E30E86A00D70C9E /* UIWindow Subclassing */,
 				B6130ED21E30E84700D70C9E /* Cell */,
-				B6130ED31E30E85100D70C9E /* Header */,
 				B6130ED11E30E82400D70C9E /* CollectionViewLayout */,
-				B62F95931E26521400CF1426 /* mainView.h */,
-				B62F95941E26521400CF1426 /* mainView.m */,
+				B6130ED31E30E85100D70C9E /* Header */,
+				B6130ED41E30E86A00D70C9E /* UIWindow Subclassing */,
 				B62F95961E26522B00CF1426 /* mainNode.h */,
 				B6E9E9341E2733C800E5689F /* mainNode.m */,
+				B62F95931E26521400CF1426 /* mainView.h */,
+				B62F95941E26521400CF1426 /* mainView.m */,
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B6130ECE1E30E7EC00D70C9E /* Models */ = {
@@ -137,6 +138,7 @@
 				B62F959A1E2652E900CF1426 /* FLDiscoveryModel.m */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B6130ECF1E30E7FA00D70C9E /* ViewControllers */ = {
@@ -146,6 +148,7 @@
 				B62F95751E26399B00CF1426 /* ViewController.m */,
 			);
 			name = ViewControllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		B6130ED01E30E80C00D70C9E /* Extensions */ = {
@@ -157,6 +160,7 @@
 				B6E9E93A1E277E0500E5689F /* Utilities.m */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B6130ED11E30E82400D70C9E /* CollectionViewLayout */ = {
@@ -166,6 +170,7 @@
 				B6E9E9451E29DD2600E5689F /* FLCollectionViewLayout.m */,
 			);
 			name = CollectionViewLayout;
+			path = CollectionViewLayout;
 			sourceTree = "<group>";
 		};
 		B6130ED21E30E84700D70C9E /* Cell */ = {
@@ -175,6 +180,7 @@
 				B6E9E93D1E27800600E5689F /* FLNewRecommendedFollowingCell.m */,
 			);
 			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B6130ED31E30E85100D70C9E /* Header */ = {
@@ -184,6 +190,7 @@
 				B6E9E9421E27A10900E5689F /* FLNewSupplementaryNode.m */,
 			);
 			name = Header;
+			path = Header;
 			sourceTree = "<group>";
 		};
 		B6130ED41E30E86A00D70C9E /* UIWindow Subclassing */ = {
@@ -193,6 +200,7 @@
 				B6E9E9371E277BC500E5689F /* WindowWithStatusBarUnderlay.m */,
 			);
 			name = "UIWindow Subclassing";
+			path = "UIWindow Subclassing";
 			sourceTree = "<group>";
 		};
 		B62F95621E26399B00CF1426 = {
@@ -200,9 +208,9 @@
 			children = (
 				B62F956D1E26399B00CF1426 /* ASDKTest */,
 				B62F95871E26399B00CF1426 /* ASDKTestTests */,
-				B62F956C1E26399B00CF1426 /* Products */,
-				615AE122BBD08F7F186C3CF2 /* Pods */,
 				0E8C49072F765AA0863A4151 /* Frameworks */,
+				615AE122BBD08F7F186C3CF2 /* Pods */,
+				B62F956C1E26399B00CF1426 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,15 +226,15 @@
 		B62F956D1E26399B00CF1426 /* ASDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				B62F95711E26399B00CF1426 /* AppDelegate.h */,
-				B62F95721E26399B00CF1426 /* AppDelegate.m */,
+				B6130ED01E30E80C00D70C9E /* Extensions */,
+				B6130ECE1E30E7EC00D70C9E /* Models */,
+				B62F956E1E26399B00CF1426 /* Supporting Files */,
 				B6130ECF1E30E7FA00D70C9E /* ViewControllers */,
 				B6130ECD1E30E7DE00D70C9E /* Views */,
-				B6130ECE1E30E7EC00D70C9E /* Models */,
-				B6130ED01E30E80C00D70C9E /* Extensions */,
-				B62F957C1E26399B00CF1426 /* LaunchScreen.storyboard */,
+				B62F95711E26399B00CF1426 /* AppDelegate.h */,
+				B62F95721E26399B00CF1426 /* AppDelegate.m */,
 				B62F957F1E26399B00CF1426 /* Info.plist */,
-				B62F956E1E26399B00CF1426 /* Supporting Files */,
+				B62F957C1E26399B00CF1426 /* LaunchScreen.storyboard */,
 			);
 			path = ASDKTest;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 				B62F956F1E26399B00CF1426 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B62F95871E26399B00CF1426 /* ASDKTestTests */ = {
@@ -491,6 +500,7 @@
 				B62F957D1E26399B00CF1426 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,24 +1,27 @@
 PODS:
-  - AsyncDisplayKit (2.0.1):
-    - AsyncDisplayKit/PINRemoteImage (= 2.0.1)
-  - AsyncDisplayKit/Core (2.0.1)
-  - AsyncDisplayKit/PINRemoteImage (2.0.1):
-    - AsyncDisplayKit/Core
-    - PINRemoteImage/iOS (= 3.0.0-beta.7)
-    - PINRemoteImage/PINCache
-  - PINCache (3.0.1-beta.2):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
-    - PINCache/Core (= 3.0.1-beta.2)
-  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
     - PINCache/Core
-  - PINCache/Core (3.0.1-beta.2)
-  - PINRemoteImage/Core (3.0.0-beta.7)
-  - PINRemoteImage/iOS (3.0.0-beta.7):
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
     - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.7):
-    - PINCache (= 3.0.1-beta.2)
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
   - ReactiveObjC (2.1.2)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
   - XMNetworking (1.0.2):
     - XMNetworking/Core (= 1.0.2)
     - XMNetworking/Lib (= 1.0.2)
@@ -29,17 +32,27 @@ PODS:
   - XMNetworking/Lib/AFNetworking-3.1.0 (1.0.2)
 
 DEPENDENCIES:
-  - AsyncDisplayKit
   - ReactiveObjC
+  - Texture
   - XMNetworking
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - ReactiveObjC
+    - Texture
+    - XMNetworking
+
 SPEC CHECKSUMS:
-  AsyncDisplayKit: 6c5a21d9ab30f3f48e877a67d44e3e19c1724f91
-  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
-  PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
   XMNetworking: bcc1d167c4386fb6bfefb0d6c7087f09333c2e09
 
-PODFILE CHECKSUM: 006c5c30aa1ba64ec83c3fc421295a19cc72c452
+PODFILE CHECKSUM: 8d1f089b809f5684c00581b3b6c618183881a6c3
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.3

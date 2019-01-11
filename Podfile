@@ -6,7 +6,7 @@ target 'ASDKTest' do
   use_frameworks!
 
   # Pods for ASDKTest
-  pod 'AsyncDisplayKit'
+  pod 'Texture'
   pod 'XMNetworking'
   pod 'ReactiveObjC'
   
